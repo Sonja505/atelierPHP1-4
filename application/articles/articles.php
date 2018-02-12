@@ -36,3 +36,27 @@ function article( $id )
     
     return $datas;
 }
+
+
+ switch ( $action )
+
+ {
+    case 'details' :
+        $datas = [];
+        $datas = article($_GET['id']);
+        
+        break;
+        
+    case 'insert' :
+     
+        break;
+    
+    default :
+        
+        $datas = articles ();
+        
+        
+        
+        break;
+        
+ }
